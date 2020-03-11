@@ -12,7 +12,7 @@ body {
 }
 
 .pageTitle {
-  font-size: calc(1.5em + 1vmin);
+  font-size: calc(1.5rem + 1vmin);
   letter-spacing: calc((1.5rem + 1vmin) * 0.01);
   font-weight: normal;
   margin: 0;
@@ -33,7 +33,7 @@ body {
 }
 
 .navButton:focus {
-  border: 2px solid #FFF;
+  border: 2px solid #000;
 }
 
 .navButton:active {
@@ -42,10 +42,10 @@ body {
 }
 
 .navText {
-  font-size: calc(0.5em + 1vmin);
+  font-size: calc(0.5rem + 1vmin);
   letter-spacing: calc((0.5rem + 1vmin) * 0.01);
   font-weight: normal;
-  margin: 0;
+  margin: 0 calc((0.25rem + 1vmin) * 0.2) 0;
 }
 
 .centerRow {
