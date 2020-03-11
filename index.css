@@ -26,8 +26,10 @@ body {
 .navButton {
   padding: 0 calc((0.75rem + 1vmin) * 0.2) 0;
   background: none;
-  border: none;
   outline: none;
+  border: 2px solid #E1BEE7;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .navText {
