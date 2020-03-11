@@ -1,3 +1,16 @@
+html {
+  background-color: #424242;
+  color: #E1BEE7;
+}
+
+button {
+  color: #E1BEE7;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .pageTitle {
   font-size: calc(1.5em + 1vmin);
   letter-spacing: calc((1.5rem + 1vmin) * 0.01);
@@ -22,4 +35,18 @@
   letter-spacing: calc((0.5rem + 1vmin) * 0.01);
   font-weight: normal;
   margin: 0;
+}
+
+.centerRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.centerColumn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
