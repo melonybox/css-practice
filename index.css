@@ -32,6 +32,15 @@ body {
   cursor: pointer;
 }
 
+.navButton:focus {
+  border: 2px solid #FFF;
+}
+
+.navButton:active {
+  color: #F8FDCF;
+  border: 2px solid #F8FDCF;
+}
+
 .navText {
   font-size: calc(0.5em + 1vmin);
   letter-spacing: calc((0.5rem + 1vmin) * 0.01);
