@@ -1,0 +1,25 @@
+.pageTitle {
+  font-size: calc(1.5em + 1vmin);
+  letter-spacing: calc((1.5rem + 1vmin) * 0.01);
+  font-weight: normal;
+  margin: 0;
+}
+
+.navBar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navButton {
+  padding: 0 calc((0.75rem + 1vmin) * 0.2) 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.navText {
+  font-size: calc(0.5em + 1vmin);
+  letter-spacing: calc((0.5rem + 1vmin) * 0.01);
+  font-weight: normal;
+  margin: 0;
+}
