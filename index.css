@@ -44,6 +44,11 @@ body {
   border-bottom: 2px solid #F8FDCF;
 }
 
+.navButton:hover {
+  border: none;
+  border-bottom: 2px solid #F8FDCF;
+}
+
 .navText {
   font-size: calc(0.5rem + 1vmin);
   letter-spacing: calc((0.5rem + 1vmin) * 0.01);
